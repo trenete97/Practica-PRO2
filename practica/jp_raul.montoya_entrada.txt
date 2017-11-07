@@ -1,0 +1,283 @@
+afegir text "The Fox"
+autor "Ylvis"
+Dog goes " woof   " Cat   goes "  meow   " Bird goes "  tweet" And  mouse   goes " squeek"   Cow   goes "  moo"  Frog   goes "  croak" And  the  elephant goes  "  toot"
+Ducks  say "  quack"  And fish goes "  blub " And the seal goes " ow ow ow "  But there  ’  s one sound  ,   That no one knows.    What does  the fox  say       ?
+Ring ding ding ding dingeringeding!  Gering    ding  ding ding dingeringeding! Gering ding ding    ding dingeringeding   ! What  the fox say ?
+Wa pa pa pa pa  pa pow!   Wa pa pa   pa pa pa pow !  Wa    pa pa  pa pa  pa pow   ! What the  fox say  ?    Hatee hatee  hatee   ho !  Hatee    hatee  hatee ho! 
+Hatee hatee  hatee   ho  ! What the fox  say ? Joff tchoff tchoffo tchoffo   tchoff! Joff  tchoff  tchoffo tchoffo tchoff   !   Joff tchoff tchoffo  tchoffo tchoff ! 
+Big   blue   eyes  ,  Pointy  nose  ,  chasing   mice  And digging  holes   ,  Tiny paws  up the hill  Suddenly  you'   re standing still . Your  fur is red ,
+So  beautiful ,  Like an   angel in  disguise  .  But if  you   meet a   friendly horse   Will  you    communicate by    morse?  How  will you   speak to   that horse? 
+What does   the fox say?   Jacha chacha chacha chow! Chacha  chacha  chacha   chow    ! Chacha   chacha  chacha chow! What the fox  say ?	 A hee ahee ha hee ! 
+A hee ahee   ha hee !  What   the fox say        ?   Aoo   oo  oo    ooo! Woo   oo oo  ooo! What    does the fox say?   The secret     of the fox ,  Ancient mystery  .
+Somewhere  deep in   the woods  ,   I know you   '   re hiding .   What is    your sound?  Will  we ever     know?  Will   always be a    mystery  .  What    do you    say?
+You  ' re my    guardian angel   Hiding  in the   woods   . What is  your sound ?  Will we ever know? I   want to, I want   to, I want   to know ! Abay ba da bum bum bay do !
+****
+
+triar text {  squeek}
+
+afegir cita 0 1
+
+afegir cita 2 4
+
+taula de frequencies ?
+
+substitueix "tchoffo" per "chof"
+
+substitueix "fox" per "Fox"
+
+taula de frequencies ?
+
+nombre de paraules ?
+
+afegir cita -1 1
+
+afegir cita 4 3
+
+cites ?
+
+eliminar cita "Y2"
+
+autor ?
+
+frases (({fox} & {does}) | {sound}) ?
+
+substitueix "bum" per "paraula"
+
+frases "no one knows hehe" ?
+
+frases 2 1 ?
+
+frases 1 1 ?
+
+frases -1 1 ?
+
+info ?
+
+contingut ?
+
+nombre de frases ?
+
+afegir text "Flantissa"
+autor "Flan el Flantastico"
+Flan   era un chico   que tenia una   flanquicia flantasticos flanes   de flanbuesa. Si,  parece un mundo    de flantasia  , pero NO . 
+A Flan le gustaba mucho preguntar,   siempre estaba estaba preguntando :   Profe se puede hacer asi ?   Cuando parareis   de hacer xistes de quimica  ?
+Porqueee ?  Frases   pot ser buida ?		Queeeee ?		Tissa gay ?   Ara et      ve al   cap qui ho diu      ?
+A que ve aquesta    flantastica   idea ?   Que   es lo primer   que vau donar ahir de M1?   Que pasa amb   la meva foto ?
+Preguntando en   mis preguntas ?  Y para la   gente que  no le  gusta la birra hay  algo?  Wut ?  Contento ?  Solo   10?
+Y muchas mas preguntas,  pero su favorita era   p*ta flantissa !  Esa la decia siempre .
+Bueno, como contaba,  Flan vivia   flancamente bien,   con los flanqueos pagados  , con   su familia de flancia   y sus dos  hamsters  que copro en Hamsterdam,
+que eran  del mismo color que el mueble y se camuflaban.   Y aqui se acaba la historia.   Si , ya se que   te has quedado un poco en shock y tienes  alguna 
+pregunta,  pero tranquilo,   para esto ya esta Flan  no te preocupes.  Y si aun asi te quedas con dudas,   preguntale a la flantissa.
+****
+
+afegir text " Los  4  Flantasticos "
+autor "Flan el Flantastico"
+Habia   una vez , cuatro personas comiendo flan .  Aparecio Flan por   detrás. Cogio el   flancotirador , y se    los cargo.
+Rip    flantasticos      .  
+****
+
+afegir text "Silversurfer"
+autor "Flan el Flantastico"
+Flan surfea  flancamente bien   sobre las olas  . Es flantastico  !
+****
+
+frases ((({goes}) | (({ba} & ({bum} | {fox})) & {do})) | ({guardian angel})) ?
+
+afegir text "La    hormiga y    la ballena"
+autor "Trenete"
+Cuantas   hormigas  caben en   una  ballena ?  Ninguna   porque va llena xD.
+****
+
+afegir text "Los 4 Flantasticos"
+autor "Flan el Flantastico"
+version 2.
+****
+
+tots autors ? 
+
+triar text {}
+
+contingut ?
+
+frases 1 1 ?
+
+triar text {  los   comiendo}
+
+nombre de frases ?
+
+substitueix "bien" per "mal"
+
+taula de frequencies ?
+
+frases "los cargo" ?
+
+frases ({mal} & {olas}) ?
+
+frases 1 8 ?
+
+afegir cita 1 2
+
+afegir cita 1 1
+
+afegir cita 1 2
+
+cites ?
+
+eliminar text
+
+contingut ?
+
+taula de frequencies ?
+
+afegir cita 1 1
+
+triar text {  flanquicia  }
+
+contingut ?
+
+afegir cita 1 1
+
+triar text {flantasticos}
+
+contingut ?
+
+totes cites ?
+
+autor ?
+
+tots autors ?
+
+cites autor "Ylvis" ?
+
+info cita "Y2" ?
+
+info cita "Y1" ?
+
+info ?
+
+eliminar text
+
+eliminar text
+
+tots textos ?
+
+textos autor "Flan el Flantastico" ?
+
+autor ?
+
+afegir text "No entiendo!"
+autor "Anonim"
+Nullam tincidunt  urna in purus   viverra aliquam. In euismod rutrum  ligula vitae  commodo   . Duis  consequat sapien vel est consequat, sit amet fringilla ipsum aliquet. 
+Fusce  finibus  ante urna. Sed   ornare commodo   scelerisque. Pellentesque aliquet odio ornare  sodales  tempor. Sed ac lacinia    ipsum,   id  interdum nibh. Etiam accumsan ligula quam, 
+eu fermentum metus hendrerit ac. Donec eget velit   quis eros malesuada semper. Sed ex leo, fermentum  commodo lacus in, mattis sollicitudin ipsum. In ligula ipsum,
+ condimentum commodo orci tristique, feugiat dapibus libero. Proin egestas   ornare elementum. Duis vehicula    interdum lectus, id tristique urna venenatis vel. Donec sem orci, finibus 
+ et felis at, ultricies euismod enim.    Phasellus quis consequat tellus. Suspendisse finibus at sem eu maximus. Cras at sagittis metus. Fusce   in nisi euismod, maximus felis a,
+interdum mauris. Curabitur   interdum, mi nec hendrerit   tristique, est nulla rutrum tortor, id elementum   lacus urna vel mauris. Nulla   sed ullamcorper quam. Pellentesque vel purus tellus. 
+Sed auctor at ex vitae viverra. Phasellus eu urna nunc.  Mauris sed pellentesque turpis. Vestibulum ante ipsum primis in faucibus orci  luctus et ultrices posuere cubilia Curae;
+Cras tristique   nulla in nibh rutrum, eget placerat elit molestie. Nam eget metus et ante tempus blandit. Pellentesque vestibulum arcu neque, ac mollis neque sodales eget. 
+Sed molestie  ultrices mi sit  amet consequat. In neque purus, porttitor eget ipsum eu, mollis venenatis orci. Donec egestas magna sed augue viverra ultricies et sit amet leo. 
+Nulla ullamcorper , mi  vel dictum efficitur, justo leo    vehicula est, vitae pellentesque ex elit non diam. Maecenas efficitur dignissim ante, ut tristique sem aliquam ut. 
+Sed ultrices, nibh id vestibulum    pulvinar, ligula sem sagittis justo, a lacinia eros nisl et libero. Nam rutrum metus eget erat tristique venenatis. Donec viverra iaculis
+convallis. Nullam neque tortor, pharetra nec lacinia lacinia, fermentum id mauris. Nunc venenatis    venenatis sem sed pretium. Praesent    pretium odio consequat venenatis  tristique.
+Fusce ut tempor   massa. Nam quis    ultrices ipsum.    Vestibulum sed lectus sem.    Sed enim elit, semper in posuere eget, gravida rutrum    massa. Donec lacus metus, 
+mattis nec efficitur eu, interdum at ante. Integer ornare mollis  dui id tempor. Cum sociis  natoque penatibus et magnis dis  parturient montes, nascetur  ridiculus mus.
+****
+
+triar text {entiendo}
+
+frases "porttitor eget" ?
+
+frases 5 12 ?
+
+frases 8 7 ?
+
+afegir cita 4 5
+
+afegir cita 6 5
+
+frases -1 4 ?
+
+afegir cita -2 -1
+
+cites ?
+
+eliminar cita "A2"
+
+triar text {entiendo}
+
+info ?
+
+afegir text "Text  per   contabilitzar be"
+autor "Raul Montoya"
+Aquest   ;    text    :   te;  cinc   ,  paraules  .    Aquest text   ,  te dues   frases !
+****
+
+triar text {te cinc paraules   dues frases}
+
+nombre de paraules ?
+
+nombre de frases ?
+
+afegir cita 1 1
+
+frases ({te} & {Aquest}) ?
+
+frases "te frases" ?
+
+eliminar text
+
+tots textos ?
+
+info ?
+
+tots autors ?
+
+cites ?
+
+totes cites ?
+
+afegir text "Text buit"
+autor "Anonim"
+.
+****
+
+triar text {te}
+
+contingut ?
+
+triar text {Text   buit}
+
+contingut ?
+
+nombre de paraules ?
+
+nombre de frases ?
+
+substitueix "el" per "la"
+
+textos autor "Anonim" ?
+
+afegir cita 1 1
+
+cites ?
+
+totes cites ?
+
+afegir text "Text buit"
+autor "Anonim"
+Es broma, no estic buit.
+****
+
+textos autor "Anonim" ?
+
+tots textos ?
+
+totes cites ?
+
+eliminar text
+
+sortir
+
+
+
+

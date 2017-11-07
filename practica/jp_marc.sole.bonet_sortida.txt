@@ -1,0 +1,334 @@
+afegir text "Pregunta"
+
+afegir text "Resposta"
+
+afegir text "Resposta"
+
+afegir text "Resposta"
+error
+
+afegir text "Resposta2"
+
+afegir text "Resposta2"
+
+afegir text "Final"
+
+triar text {Sole fent}
+
+substitueix "fent" per "Sole"
+
+triar text {Sole}
+error
+
+triar text {Raul}
+error
+
+contingut ?
+error
+
+triar text {Raul joc proves}
+
+frases 1 1 ?
+1 Ei Raul!
+
+substitueix "el" per "els"
+
+substitueix "joc" per "jocs"
+
+frases 3 3 ?
+3 Has fet ja els jocs de proves?
+
+triar text {Raul error}
+
+afegir cita 1 2
+
+cites ?
+RM1
+1 Pots provar d'afegir dos textos amb el mateix titol a un autor.
+2 Ha de donar error.
+Raul Montoya "Resposta2"
+
+eliminar cita "RM1"
+
+cites ?
+
+tots textos ?
+Marc Sole "Pregunta"
+Marc Sole "Resposta"
+Marc Sole "Resposta2"
+Raul Montoya "Final"
+Raul Montoya "Resposta"
+Raul Montoya "Resposta2"
+
+triar text {Raul jocs proves}
+
+frases (({fet ja} | {Raul}) & {tal}) ?
+
+frases (({fet ja} & {Raul}) | {tal}) ?
+2 Que tal?
+
+frases (({fet ja} | {Raul}) & ({Ei} | {proves})) ?
+1 Ei Raul!
+3 Has fet ja els jocs de proves?
+
+triar text {coses rares}
+
+substitueix "rares" per "extranyes"
+
+triar text {coses rares}
+error
+
+triar text {coses extranyes}
+
+frases "text fes coses" ?
+
+frases "text i fes coses" ?
+2 Usa tambe el triar text, i fes coses extranyes.
+
+frases "coses rares" ?
+
+triar text {punts comes etc}
+
+autor ?
+Marc Sole
+
+nombre de paraules ?
+30
+
+triar text {triar text}
+
+triar text {triar text}
+
+frases ((((({Genial}))))) ?
+1 Genial!
+
+triar text {etc signes general}
+
+frases (({comes punts} & {etc})  | {Vale}) ?
+1 Vale!
+3 Pel tema de frases que no falli si hi ha signes: punts, comes, punts i comes, etc; vaja, tot en general.
+
+frases "signes punts comes punts comes etc" ?
+
+frases "signes punts comes punts i comes etc" ?
+3 Pel tema de frases que no falli si hi ha signes: punts, comes, punts i comes, etc; vaja, tot en general.
+
+afegir text "Ja esta tot"
+
+afegir text "SIII JA ESTA"
+
+triar text {10/10}
+
+contingut ?
+1 Si tiu ja esta tot!
+2 Es nostres jocs de proves son la canya, segur que quan el corrector els llegeixi ens posa un 10/10 nomes per la originalitat.
+
+frases {10} | ({originalitat} & {tot tiu}) ?
+
+triar text {tot Bua}
+
+taula de frequencies ?
+ja 1
+Bua 1
+Hem 1
+tot 1
+Raul 1
+esta 1
+acabat 1
+
+eliminar text
+
+triar text {SIII}
+
+eliminar text
+
+afegir text "Notes Practica PRO2"
+
+triar text {10}
+
+frases {10} & ({Raul Montoya} | {Marc Sole}) ?
+5 Raul Montoya 10.
+6 Marc Sole 10.
+
+afegir cita 1 3
+
+afegir cita 5 5
+
+afegir cita 6 6
+
+afegir cita 5 5
+error
+
+afegir cita 4 6
+
+afegir cita 5 7
+
+afegir cita 9 9
+
+totes cites ?
+UPC1
+1 Bon dia, benvolguts alumnes ens plau comunicar-vos el resultat de la practica de PRO2.
+2 Després d'un analisi exhaustiu.
+3 Moltes hores de valoracio.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC2
+5 Raul Montoya 10.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC3
+6 Marc Sole 10.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC4
+4 Resultats.
+5 Raul Montoya 10.
+6 Marc Sole 10.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC5
+5 Raul Montoya 10.
+6 Marc Sole 10.
+7 Enhorabona per la vostra bona feina!
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC6
+9 P,D: Diu el Flan flantissa que ho heu fet flantasticament.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+
+eliminar cita "UPC1"
+
+eliminar cita "UPC2"
+
+afegir cita 4 7
+
+eliminar cita "UPC1"
+error
+
+cites ?
+UPC3
+6 Marc Sole 10.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC4
+4 Resultats.
+5 Raul Montoya 10.
+6 Marc Sole 10.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC5
+5 Raul Montoya 10.
+6 Marc Sole 10.
+7 Enhorabona per la vostra bona feina!
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC6
+9 P,D: Diu el Flan flantissa que ho heu fet flantasticament.
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+UPC7
+4 Resultats.
+5 Raul Montoya 10.
+6 Marc Sole 10.
+7 Enhorabona per la vostra bona feina!
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+
+eliminar text
+
+cites autor "UNIVERSITAT POLITECNICA CATALUNYA" ?
+UPC3
+6 Marc Sole 10.
+"Notes Practica PRO2"
+UPC4
+4 Resultats.
+5 Raul Montoya 10.
+6 Marc Sole 10.
+"Notes Practica PRO2"
+UPC5
+5 Raul Montoya 10.
+6 Marc Sole 10.
+7 Enhorabona per la vostra bona feina!
+"Notes Practica PRO2"
+UPC6
+9 P,D: Diu el Flan flantissa que ho heu fet flantasticament.
+"Notes Practica PRO2"
+UPC7
+4 Resultats.
+5 Raul Montoya 10.
+6 Marc Sole 10.
+7 Enhorabona per la vostra bona feina!
+"Notes Practica PRO2"
+
+afegir text "We are the champions"
+
+triar text {roses we}
+
+afegir cita 8 8
+
+info ?
+Queen "We are the champions" 20 200
+Cites Associades:
+Q1
+8 We are the champions.
+
+afegir cita 7 8
+
+eliminar cita "Q1"
+
+info cita "Q2" ?
+Queen "We are the champions"
+7-8
+7 We are the champions.
+8 We are the champions.
+
+info cita "UPC4" ?
+UNIVERSITAT POLITECNICA CATALUNYA "Notes Practica PRO2"
+4-6
+4 Resultats.
+5 Raul Montoya 10.
+6 Marc Sole 10.
+
+frases (({champions} | {losers})) ?
+6 We are the champions, my friends, And we'll keep on fighting 'til the end.
+7 We are the champions.
+8 We are the champions.
+9 No time for losers 'Cause we are the champions of the world.
+13 We are the champions, my friends, And we'll keep on fighting 'til the end.
+14 We are the champions.
+15 We are the champions.
+16 No time for losers 'Cause we are the champions of the world.
+17 We are the champions, my friends, And we'll keep on fighting 'til the end.
+18 We are the champions.
+19 We are the champions.
+20 No time for losers 'Cause we are the champions.
+
+frases (({champions} & {losers})) ?
+9 No time for losers 'Cause we are the champions of the world.
+16 No time for losers 'Cause we are the champions of the world.
+20 No time for losers 'Cause we are the champions.
+
+nombre de paraules ?
+200
+
+autor ?
+Queen
+
+tots autors ?
+Marc Sole 3 8 49
+Queen 1 20 200
+Raul Montoya 3 6 35
+
+textos autor "Raul Montoya" ?
+"Final"
+"Resposta"
+"Resposta2"
+
+textos autor "Marc Sole" ?
+"Pregunta"
+"Resposta"
+"Resposta2"
+
+triar text {We are the losers of the champions world}
+
+substitueix "losers" per "Flan" 
+
+substitueix "time" per "questions"
+
+substitueix "world" per "PRO2"
+
+frases {Flan} ? 
+9 No questions for Flan 'Cause we are the champions of the PRO2.
+16 No questions for Flan 'Cause we are the champions of the PRO2.
+20 No questions for Flan 'Cause we are the champions.
+

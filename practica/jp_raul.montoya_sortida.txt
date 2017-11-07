@@ -1,0 +1,794 @@
+afegir text "The Fox"
+
+triar text {  squeek}
+
+afegir cita 0 1
+error
+
+afegir cita 2 4
+
+taula de frequencies ?
+pa 15
+the 14
+What 11
+say 10
+fox 9
+ding 9
+goes 9
+you 6
+hatee 6
+chacha 6
+tchoff 6
+tchoffo 6
+And 5
+I 4
+oo 4
+to 4
+hee 4
+Will 4
+know 4
+Wa 3
+ho 3
+in 3
+is 3
+ow 3
+re 3
+pow 3
+Joff 3
+chow 3
+does 3
+want 3
+Hatee 3
+sound 3
+dingeringeding 3
+A 2
+a 2
+do 2
+ha 2
+we 2
+But 2
+bum 2
+one 2
+ooo 2
+ahee 2
+ever 2
+your 2
+angel 2
+horse 2
+woods 2
+Chacha 2
+Gering 2
+mystery 2
+s 1
+So 1
+an 1
+ba 1
+be 1
+by 1
+da 1
+if 1
+my 1
+no 1
+of 1
+up 1
+Aoo 1
+Big 1
+Cat 1
+Cow 1
+Dog 1
+How 1
+The 1
+Woo 1
+You 1
+bay 1
+fur 1
+moo 1
+red 1
+Abay 1
+Bird 1
+Frog 1
+Like 1
+Ring 1
+That 1
+Tiny 1
+Your 1
+blub 1
+blue 1
+deep 1
+eyes 1
+fish 1
+hill 1
+meet 1
+meow 1
+mice 1
+nose 1
+paws 1
+seal 1
+that 1
+toot 1
+will 1
+woof 1
+Ducks 1
+Jacha 1
+croak 1
+holes 1
+knows 1
+morse 1
+mouse 1
+quack 1
+speak 1
+still 1
+there 1
+tweet 1
+Hiding 1
+Pointy 1
+always 1
+hiding 1
+secret 1
+squeek 1
+Ancient 1
+chasing 1
+digging 1
+Suddenly 1
+disguise 1
+elephant 1
+friendly 1
+guardian 1
+standing 1
+Somewhere 1
+beautiful 1
+communicate 1
+
+substitueix "tchoffo" per "chof"
+
+substitueix "fox" per "Fox"
+
+taula de frequencies ?
+pa 15
+the 14
+What 11
+say 10
+Fox 9
+ding 9
+goes 9
+you 6
+chof 6
+hatee 6
+chacha 6
+tchoff 6
+And 5
+I 4
+oo 4
+to 4
+hee 4
+Will 4
+know 4
+Wa 3
+ho 3
+in 3
+is 3
+ow 3
+re 3
+pow 3
+Joff 3
+chow 3
+does 3
+want 3
+Hatee 3
+sound 3
+dingeringeding 3
+A 2
+a 2
+do 2
+ha 2
+we 2
+But 2
+bum 2
+one 2
+ooo 2
+ahee 2
+ever 2
+your 2
+angel 2
+horse 2
+woods 2
+Chacha 2
+Gering 2
+mystery 2
+s 1
+So 1
+an 1
+ba 1
+be 1
+by 1
+da 1
+if 1
+my 1
+no 1
+of 1
+up 1
+Aoo 1
+Big 1
+Cat 1
+Cow 1
+Dog 1
+How 1
+The 1
+Woo 1
+You 1
+bay 1
+fur 1
+moo 1
+red 1
+Abay 1
+Bird 1
+Frog 1
+Like 1
+Ring 1
+That 1
+Tiny 1
+Your 1
+blub 1
+blue 1
+deep 1
+eyes 1
+fish 1
+hill 1
+meet 1
+meow 1
+mice 1
+nose 1
+paws 1
+seal 1
+that 1
+toot 1
+will 1
+woof 1
+Ducks 1
+Jacha 1
+croak 1
+holes 1
+knows 1
+morse 1
+mouse 1
+quack 1
+speak 1
+still 1
+there 1
+tweet 1
+Hiding 1
+Pointy 1
+always 1
+hiding 1
+secret 1
+squeek 1
+Ancient 1
+chasing 1
+digging 1
+Suddenly 1
+disguise 1
+elephant 1
+friendly 1
+guardian 1
+standing 1
+Somewhere 1
+beautiful 1
+communicate 1
+
+nombre de paraules ?
+293
+
+afegir cita -1 1
+error
+
+afegir cita 4 3
+error
+
+cites ?
+Y1
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+Ylvis "The Fox"
+
+eliminar cita "Y2"
+error
+
+autor ?
+Ylvis
+
+frases (({fox} & {does}) | {sound}) ?
+1 Dog goes " woof " Cat goes " meow " Bird goes " tweet" And mouse goes " squeek" Cow goes " moo" Frog goes " croak" And the elephant goes " toot" Ducks say " quack" And fish goes " blub " And the seal goes " ow ow ow " But there  s one sound, That no one knows.
+35 What is your sound?
+40 What is your sound?
+
+substitueix "bum" per "paraula"
+
+frases "no one knows hehe" ?
+
+frases 2 1 ?
+error
+
+frases 1 1 ?
+1 Dog goes " woof " Cat goes " meow " Bird goes " tweet" And mouse goes " squeek" Cow goes " moo" Frog goes " croak" And the elephant goes " toot" Ducks say " quack" And fish goes " blub " And the seal goes " ow ow ow " But there  s one sound, That no one knows.
+
+frases -1 1 ?
+error
+
+info ?
+Ylvis "The Fox" 43 293
+Cites Associades:
+Y1
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+
+contingut ?
+1 Dog goes " woof " Cat goes " meow " Bird goes " tweet" And mouse goes " squeek" Cow goes " moo" Frog goes " croak" And the elephant goes " toot" Ducks say " quack" And fish goes " blub " And the seal goes " ow ow ow " But there  s one sound, That no one knows.
+2 What does the Fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+5 Gering ding ding ding dingeringeding!
+6 What the Fox say?
+7 Wa pa pa pa pa pa pow!
+8 Wa pa pa pa pa pa pow!
+9 Wa pa pa pa pa pa pow!
+10 What the Fox say?
+11 Hatee hatee hatee ho!
+12 Hatee hatee hatee ho!
+13 Hatee hatee hatee ho!
+14 What the Fox say?
+15 Joff tchoff chof chof tchoff!
+16 Joff tchoff chof chof tchoff!
+17 Joff tchoff chof chof tchoff!
+18 Big blue eyes, Pointy nose, chasing mice And digging holes, Tiny paws up the hill Suddenly you' re standing still.
+19 Your fur is red, So beautiful, Like an angel in disguise.
+20 But if you meet a friendly horse Will you communicate by morse?
+21 How will you speak to that horse?
+22 What does the Fox say?
+23 Jacha chacha chacha chow!
+24 Chacha chacha chacha chow!
+25 Chacha chacha chacha chow!
+26 What the Fox say?
+27 A hee ahee ha hee!
+28 A hee ahee ha hee!
+29 What the Fox say?
+30 Aoo oo oo ooo!
+31 Woo oo oo ooo!
+32 What does the Fox say?
+33 The secret of the Fox, Ancient mystery.
+34 Somewhere deep in the woods, I know you ' re hiding.
+35 What is your sound?
+36 Will we ever know?
+37 Will always be a mystery.
+38 What do you say?
+39 You ' re my guardian angel Hiding in the woods.
+40 What is your sound?
+41 Will we ever know?
+42 I want to, I want to, I want to know!
+43 Abay ba da paraula paraula bay do!
+
+nombre de frases ?
+43
+
+afegir text "Flantissa"
+
+afegir text " Los  4  Flantasticos "
+
+afegir text "Silversurfer"
+
+frases ((({goes}) | (({ba} & ({bum} | {fox})) & {do})) | ({guardian angel})) ?
+1 Dog goes " woof " Cat goes " meow " Bird goes " tweet" And mouse goes " squeek" Cow goes " moo" Frog goes " croak" And the elephant goes " toot" Ducks say " quack" And fish goes " blub " And the seal goes " ow ow ow " But there  s one sound, That no one knows.
+39 You ' re my guardian angel Hiding in the woods.
+
+afegir text "La    hormiga y    la ballena"
+
+afegir text "Los 4 Flantasticos"
+error
+
+tots autors ? 
+Flan el Flantastico 3 29 221
+Trenete 1 2 11
+Ylvis 1 43 293
+
+triar text {}
+error
+
+contingut ?
+error
+
+frases 1 1 ?
+error
+
+triar text {  los   comiendo}
+
+nombre de frases ?
+4
+
+substitueix "bien" per "mal"
+
+taula de frequencies ?
+y 1
+el 1
+se 1
+Rip 1
+los 1
+por 1
+una 1
+vez 1
+Flan 1
+flan 1
+Cogio 1
+Habia 1
+cargo 1
+cuatro 1
+detrás 1
+Aparecio 1
+comiendo 1
+personas 1
+flantasticos 1
+flancotirador 1
+
+frases "los cargo" ?
+3 Cogio el flancotirador, y se los cargo.
+
+frases ({mal} & {olas}) ?
+
+frases 1 8 ?
+error
+
+afegir cita 1 2
+
+afegir cita 1 1
+
+afegir cita 1 2
+error
+
+cites ?
+FeF1
+1 Habia una vez, cuatro personas comiendo flan.
+2 Aparecio Flan por detrás.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF2
+1 Habia una vez, cuatro personas comiendo flan.
+Flan el Flantastico "Los 4 Flantasticos"
+
+eliminar text
+
+contingut ?
+error
+
+taula de frequencies ?
+error
+
+afegir cita 1 1
+error
+
+triar text {  flanquicia  }
+
+contingut ?
+1 Flan era un chico que tenia una flanquicia flantasticos flanes de flanbuesa.
+2 Si, parece un mundo de flantasia, pero NO.
+3 A Flan le gustaba mucho preguntar, siempre estaba estaba preguntando: Profe se puede hacer asi?
+4 Cuando parareis de hacer xistes de quimica?
+5 Porqueee?
+6 Frases pot ser buida?
+7 Queeeee?
+8 Tissa gay?
+9 Ara et ve al cap qui ho diu?
+10 A que ve aquesta flantastica idea?
+11 Que es lo primer que vau donar ahir de M1?
+12 Que pasa amb la meva foto?
+13 Preguntando en mis preguntas?
+14 Y para la gente que no le gusta la birra hay algo?
+15 Wut?
+16 Contento?
+17 Solo 10?
+18 Y muchas mas preguntas, pero su favorita era p*ta flantissa!
+19 Esa la decia siempre.
+20 Bueno, como contaba, Flan vivia flancamente bien, con los flanqueos pagados, con su familia de flancia y sus dos hamsters que copro en Hamsterdam, que eran del mismo color que el mueble y se camuflaban.
+21 Y aqui se acaba la historia.
+22 Si, ya se que te has quedado un poco en shock y tienes alguna pregunta, pero tranquilo, para esto ya esta Flan no te preocupes.
+23 Y si aun asi te quedas con dudas, preguntale a la flantissa.
+
+afegir cita 1 1
+
+triar text {flantasticos}
+
+contingut ?
+1 Flan era un chico que tenia una flanquicia flantasticos flanes de flanbuesa.
+2 Si, parece un mundo de flantasia, pero NO.
+3 A Flan le gustaba mucho preguntar, siempre estaba estaba preguntando: Profe se puede hacer asi?
+4 Cuando parareis de hacer xistes de quimica?
+5 Porqueee?
+6 Frases pot ser buida?
+7 Queeeee?
+8 Tissa gay?
+9 Ara et ve al cap qui ho diu?
+10 A que ve aquesta flantastica idea?
+11 Que es lo primer que vau donar ahir de M1?
+12 Que pasa amb la meva foto?
+13 Preguntando en mis preguntas?
+14 Y para la gente que no le gusta la birra hay algo?
+15 Wut?
+16 Contento?
+17 Solo 10?
+18 Y muchas mas preguntas, pero su favorita era p*ta flantissa!
+19 Esa la decia siempre.
+20 Bueno, como contaba, Flan vivia flancamente bien, con los flanqueos pagados, con su familia de flancia y sus dos hamsters que copro en Hamsterdam, que eran del mismo color que el mueble y se camuflaban.
+21 Y aqui se acaba la historia.
+22 Si, ya se que te has quedado un poco en shock y tienes alguna pregunta, pero tranquilo, para esto ya esta Flan no te preocupes.
+23 Y si aun asi te quedas con dudas, preguntale a la flantissa.
+
+totes cites ?
+FeF1
+1 Habia una vez, cuatro personas comiendo flan.
+2 Aparecio Flan por detrás.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF2
+1 Habia una vez, cuatro personas comiendo flan.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF3
+1 Flan era un chico que tenia una flanquicia flantasticos flanes de flanbuesa.
+Flan el Flantastico "Flantissa"
+Y1
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+Ylvis "The Fox"
+
+autor ?
+Flan el Flantastico
+
+tots autors ?
+Flan el Flantastico 2 25 201
+Trenete 1 2 11
+Ylvis 1 43 293
+
+cites autor "Ylvis" ?
+Y1
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+"The Fox"
+
+info cita "Y2" ?
+error
+
+info cita "Y1" ?
+Ylvis "The Fox"
+2-4
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+
+info ?
+Flan el Flantastico "Flantissa" 23 192
+Cites Associades:
+
+eliminar text
+
+eliminar text
+error
+
+tots textos ?
+Flan el Flantastico "Silversurfer"
+Trenete "La hormiga y la ballena"
+Ylvis "The Fox"
+
+textos autor "Flan el Flantastico" ?
+"Silversurfer"
+
+autor ?
+error
+
+afegir text "No entiendo!"
+
+triar text {entiendo}
+
+frases "porttitor eget" ?
+29 In neque purus, porttitor eget ipsum eu, mollis venenatis orci.
+
+frases 5 12 ?
+5 Sed ornare commodo scelerisque.
+6 Pellentesque aliquet odio ornare sodales tempor.
+7 Sed ac lacinia ipsum, id interdum nibh.
+8 Etiam accumsan ligula quam, eu fermentum metus hendrerit ac.
+9 Donec eget velit quis eros malesuada semper.
+10 Sed ex leo, fermentum commodo lacus in, mattis sollicitudin ipsum.
+11 In ligula ipsum, condimentum commodo orci tristique, feugiat dapibus libero.
+12 Proin egestas ornare elementum.
+
+frases 8 7 ?
+error
+
+afegir cita 4 5
+
+afegir cita 6 5
+error
+
+frases -1 4 ?
+error
+
+afegir cita -2 -1
+error
+
+cites ?
+A1
+4 Fusce finibus ante urna.
+5 Sed ornare commodo scelerisque.
+Anonim "No entiendo!"
+
+eliminar cita "A2"
+error
+
+triar text {entiendo}
+
+info ?
+Anonim "No entiendo!" 45 356
+Cites Associades:
+A1
+4 Fusce finibus ante urna.
+5 Sed ornare commodo scelerisque.
+
+afegir text "Text  per   contabilitzar be"
+
+triar text {te cinc paraules   dues frases}
+
+nombre de paraules ?
+10
+
+nombre de frases ?
+2
+
+afegir cita 1 1
+
+frases ({te} & {Aquest}) ?
+1 Aquest; text: te; cinc, paraules.
+2 Aquest text, te dues frases!
+
+frases "te frases" ?
+
+eliminar text
+
+tots textos ?
+Anonim "No entiendo!"
+Flan el Flantastico "Silversurfer"
+Trenete "La hormiga y la ballena"
+Ylvis "The Fox"
+
+info ?
+error
+
+tots autors ?
+Anonim 1 45 356
+Flan el Flantastico 1 2 9
+Trenete 1 2 11
+Ylvis 1 43 293
+
+cites ?
+error
+
+totes cites ?
+A1
+4 Fusce finibus ante urna.
+5 Sed ornare commodo scelerisque.
+Anonim "No entiendo!"
+FeF1
+1 Habia una vez, cuatro personas comiendo flan.
+2 Aparecio Flan por detrás.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF2
+1 Habia una vez, cuatro personas comiendo flan.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF3
+1 Flan era un chico que tenia una flanquicia flantasticos flanes de flanbuesa.
+Flan el Flantastico "Flantissa"
+RM1
+1 Aquest; text: te; cinc, paraules.
+Raul Montoya "Text per contabilitzar be"
+Y1
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+Ylvis "The Fox"
+
+afegir text "Text buit"
+
+triar text {te}
+error
+
+contingut ?
+error
+
+triar text {Text   buit}
+
+contingut ?
+1 .
+
+nombre de paraules ?
+0
+
+nombre de frases ?
+1
+
+substitueix "el" per "la"
+
+textos autor "Anonim" ?
+"No entiendo!"
+"Text buit"
+
+afegir cita 1 1
+
+cites ?
+
+totes cites ?
+A1
+4 Fusce finibus ante urna.
+5 Sed ornare commodo scelerisque.
+Anonim "No entiendo!"
+A2
+1 .
+Anonim "Text buit"
+FeF1
+1 Habia una vez, cuatro personas comiendo flan.
+2 Aparecio Flan por detrás.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF2
+1 Habia una vez, cuatro personas comiendo flan.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF3
+1 Flan era un chico que tenia una flanquicia flantasticos flanes de flanbuesa.
+Flan el Flantastico "Flantissa"
+RM1
+1 Aquest; text: te; cinc, paraules.
+Raul Montoya "Text per contabilitzar be"
+Y1
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+Ylvis "The Fox"
+
+afegir text "Text buit"
+error
+
+textos autor "Anonim" ?
+"No entiendo!"
+"Text buit"
+
+tots textos ?
+Anonim "No entiendo!"
+Anonim "Text buit"
+Flan el Flantastico "Silversurfer"
+Trenete "La hormiga y la ballena"
+Ylvis "The Fox"
+
+totes cites ?
+A1
+4 Fusce finibus ante urna.
+5 Sed ornare commodo scelerisque.
+Anonim "No entiendo!"
+A2
+1 .
+Anonim "Text buit"
+FeF1
+1 Habia una vez, cuatro personas comiendo flan.
+2 Aparecio Flan por detrás.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF2
+1 Habia una vez, cuatro personas comiendo flan.
+Flan el Flantastico "Los 4 Flantasticos"
+FeF3
+1 Flan era un chico que tenia una flanquicia flantasticos flanes de flanbuesa.
+Flan el Flantastico "Flantissa"
+RM1
+1 Aquest; text: te; cinc, paraules.
+Raul Montoya "Text per contabilitzar be"
+Y1
+2 What does the fox say?
+3 Ring ding ding ding dingeringeding!
+4 Gering ding ding ding dingeringeding!
+Ylvis "The Fox"
+
+eliminar text
+
